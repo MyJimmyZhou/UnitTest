@@ -13,6 +13,7 @@ namespace Demo.Test
             bool result = true;
             Assert.IsTrue(result);
             Warn.If(2 + 2 != 5);
+
             //Assert.That("1", Is.Null.Or.Empty);
         }
     }
