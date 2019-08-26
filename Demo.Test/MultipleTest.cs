@@ -12,20 +12,20 @@ namespace Demo.Test
         {
             Assert.Multiple(() =>
             {
-                Assert.AreEqual(5.2, 5.1, "Real part");
-                Assert.AreEqual(3.9, 3.8, "Imaginary part");
+                Assert.AreEqual(5.2, 5.2, "Real part");
+                Assert.AreEqual(3.9, 3.9, "Imaginary part");
             });
         }
 
-        [Test]
-        public void AssumeTest()
-        {
-            Assert.Multiple(() =>
-            {
-                Assume.That("1", Is.Null);
-                Assume.That("1", Is.Not.Empty);
-            });
+        //[Test]
+        //public void AssumeTest()
+        //{
+        //    Assert.Multiple(() =>
+        //    {
+        //        Assume.That("1", Is.Null);
+        //        Assume.That("1", Is.Not.Empty);
+        //    });
 
-        }
+        //}
     }
 }

@@ -10,9 +10,8 @@ namespace Demo.Test
         [Test]
         public void Test()
         {
-            Assert.That("string", Is.Empty);
+            Assert.That("string", Is.Not.Empty);
             Assume.That(true, Is.True);
-            Assume.That(false, Is.True);
         }
     }
 }
