@@ -14,6 +14,16 @@ namespace Demo.Test
             bankAccountB = new BankAccount(1000);
         }
 
+        //[Test]
+        //public void Transfer_Test()
+        //{
+        //    IBankService bankService = new BankService();
+        //    bankService.TransferAccounts(bankAccountA, bankAccountB, 500);
+        //    Assert.AreEqual(500, bankAccountA.GetBalance());
+        //    Assert.AreEqual(1500, bankAccountB.GetBalance());
+        //}
+
+
         [Test]
         [Author("zjl")]
         [Author("¼¦Ã×Öà", "zjl_hnyz@outlook.com")]

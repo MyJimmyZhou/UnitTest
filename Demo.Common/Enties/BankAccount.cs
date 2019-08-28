@@ -4,13 +4,13 @@ namespace Demo.Common
 {
     public class BankAccount
     {
-        private string _accountId;
+        public string AccountId;
         private double _balance;
 
         public BankAccount(double money)
         {
             _balance = money;
-            _accountId = new Guid().ToString();
+            AccountId = new Guid().ToString();
         }
 
         public double GetBalance()
